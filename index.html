@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--“Sometimes, you just have to start all over differently.”
+    - Bernard Kelvin Clive
+    -->
+    <!-- <h1>Hello World!</h1> -->
+    <h2>CatPhotoApp</h2>
+    <!--nesting elements; nest anchor tag within -->
+    <p>
+        <!-- anchor tag points/links to external web pages/locations -->
+        <a href="https://www.freecodecamp.org">View more cat photos</a>
+    </p>
+
+    <!-- anchor tag that points to different locations on the screen -->
+        <a href="#footer">Jump to Bottom</a>
+
+    <!-- dead links using anchor tags -->
+        <a href="#">Dead link</a>
+
+    <main>
+
+        <!-- nest elements within anchor tags -->
+        <a href="">
+            <!--image elements need src attribute and an alt attribute for image link and description-->
+            <img src='https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg' alt='kitty'>
+        </a>
+
+        <p>
+            Kitty ipsum dolor sit amet, 
+            shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+            hairball run catnip eat the grass sniff.
+            <!-- can nest anchor tags within other elements -->
+        </p>
+        <p>
+            Purr jump eat the grass rip the couch scratched sunbathe, 
+            shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
+        </p>
+
+        <!-- form element -->
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+            <br>
+            <hr>
+
+            <!-- label elements for input elements -->
+            <label for="front-end">
+                <!-- radio input elements -->
+
+                <!-- Inputs of type radio and checkbox report their values from the value attribute. -->
+                <!-- can check a radio or checkbox by default with checked keyword -->
+                <input type="radio" id='front-end' name='web-dev' value='front-end' checked>Front-End
+            </label>
+        
+            <br>
+
+            <label for="back-end">
+                <!-- radio input elements -->
+                <input type="radio" id='back-end' name='web-dev' value='back-end'>Back-End
+            </label>
+            <hr>
+
+            <!--os checkbox selections -->
+            <!-- Inputs of type radio and checkbox report their values from the value attribute. -->
+            <label for="html">
+                Html<input id='html' type="checkbox" name='languages' value='hmtl' checked>
+            </label>
+
+            <br>
+
+            <label for="css">
+                Css<input id='css' type="checkbox" name='languages' value='css'>
+            </label>
+
+            <br>
+            
+            <!-- Inputs of type radio and checkbox report their values from the value attribute. -->
+            <label for="javascript">
+                <!-- You can set a checkbox or radio button to be checked by default using the checked attribute. -->
+                Javascript<input id='javascript' type="checkbox" name='languages' value='javascript'>
+            </label>
+
+            <hr>
+            <!-- input tag -->
+            <!-- input tag - required; require user to enter text before submiting data.-->
+            <input type="text" placeholder="enter text here" required>
+            <!--a button tag within a form will send data to the specified url -->
+            <button type='submit'>Submit</button>
+        </form>
+
+        <!-- footers can contain additional info -->
+        <footer id='footer'>
+            <!-- unordered list -->
+            <ul>
+                <li>Front End Web Development</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>APIs</li>
+            </ul>
+
+            <!-- ordered list -->
+            <ol>
+                <li>MacOS</li>
+                <li>Red Hat Enterprise Linux</li>
+                <li>Windows</li>
+            </ol>
+            <br>
+        </footer>
+    </main>
+</body>
+</html>
