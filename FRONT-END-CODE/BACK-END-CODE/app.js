@@ -46,17 +46,53 @@ class Media{
         this._ratings.push(rating)
     }
 
-    
-
-
-
-
-
-
-
-
-
-  
-
 
 }
+
+//book subclass inherits props from superclass.
+class Book extends Media{
+    constructor(author, title, pages){
+
+        //super passed in title props from parent class.
+        super(title)
+
+        this._title = title
+        this._author = author
+        this._pages = pages
+    }
+
+    get author(){
+        return this._author
+    }
+
+
+    get pages(){
+        return this._pages
+    }
+
+}
+
+//movie subclass inherites props from Media superclass.
+class Movie extends Media{
+    constructor(director, title, runTime){
+        //properties inheritted from the superclass.
+        super(title)
+        this._director = director
+        this._title = title
+        this._runTime = runTime
+    }
+
+    //getter methods for all unique properties in Movie class.
+    get director(){
+        return this._director
+    }
+
+
+    get runTime(){
+        return this._runTime
+    }
+
+}
+
+const historyOfEverything = new Media('Bill Bryson', 'A Short History of Nearly Everything', 544)
+
