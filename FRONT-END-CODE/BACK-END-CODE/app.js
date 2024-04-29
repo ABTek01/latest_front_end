@@ -31,10 +31,10 @@ class Media{
   }
 
   //method that return the average value of the ratings array.
-  getAverageRating(ratingsArraySum){
+  getAverageRating(){
         //utilize reduce method.
         const initVal = 0
-        ratingsArraySum = this._ratings.reduce((acc, currentVal) => {
+        const ratingsArraySum = this._ratings.reduce((acc, currentVal) => {
             
             return acc + currentVal
         }, initVal)
@@ -87,12 +87,43 @@ class Movie extends Media{
         return this._director
     }
 
-
+    
     get runTime(){
         return this._runTime
     }
 
 }
 
-const historyOfEverything = new Media('Bill Bryson', 'A Short History of Nearly Everything', 544)
+const historyOfEverything = new Book(
+    'Bill Bryson', 
+    'A Short History of Nearly Everything', 
+    544
+)
+
+console.log(historyOfEverything)
+
+//changes the value of isCheckedOut value 
+historyOfEverything.toggleCheckOutStatus()
+
+//isCheckedOut value converted.
+console.log(historyOfEverything.isCheckedOut)
+
+//calling addRatings method to append ratings to the list property.
+historyOfEverything.addRating(4)
+historyOfEverything.addRating(5)
+historyOfEverything.addRating(5)
+console.log()
+
+historyOfEverything.getAverageRating()
+
+//creating a new movie object titlee speed.
+const speed = new Movie('Jan de Bont', 'Speed', 166)
+console.log(speed)
+
+//
+
+
+
+
+
 
