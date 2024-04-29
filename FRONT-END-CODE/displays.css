@@ -1,0 +1,65 @@
+/* css display styles */
+
+/*
+    z-index;
+
+    the depth of elements.
+
+    z-index property controls how far 
+    back or how far forward an element 
+    should appear on the web page when 
+    elements overlap.
+
+    z-index property accepts integer values.
+*/
+header{
+    z-index: 10;
+}
+
+/* 
+    display: inline;
+    aligns elements horizontally
+    next to each other
+*/
+
+
+
+
+/* 
+display: block;
+In combination with 'float' and 'position', 
+determines the type of box or boxes that are generated for an element.
+
+*/
+
+
+
+
+/* 
+display; inline-block
+In combination with 'float' and 'position', 
+determines the type of box or boxes that are generated for an element.
+
+*/
+li{
+    /* allows elements to be positioned in a straight line allowing width and height to be set. */
+    display: inline-block;
+
+    border: solid black 1px;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+/* 
+float;
+left - floats an element as far left as possible
+right - floats and element as far right as possible
+
+*/
+
+/* 
+    #article-title{
+        element will float to the left
+        float: right;
+    } 
+*/

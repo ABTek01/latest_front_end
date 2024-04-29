@@ -1,0 +1,35 @@
+/* 
+Hex & RGB
+color sceheme
+#000000
+rgb(250, 250, 250)
+
+HSL System;
+Hue, Saturation, lightness
+color: hsl(250, 50%, 50%)
+
+Opacity and Alpha;
+
+opacity, is the measure of how transparent an element is.
+measured from 0 to 1, with 1 representing 100%, or fully visible and opaque, and 0 representing 0%, or fully invisible.
+
+color: hsla(100, 100%, 50%, 0.1)
+
+rgb opacity styling; rgba(234, 45, 98, 0.33)
+
+color: transperant
+
+#F007
+
+*/
+
+.add-p-data{
+    color:black;
+}
+
+.article-title{
+    opacity: 0.65;
+}
+
+
+

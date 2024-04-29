@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- list of css files according to subject matter. -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./visualStyleRules.css">
+    <link rel="stylesheet" href="./boxModel.css">
+    <link rel="stylesheet" href="./position.css">
+    <link rel="stylesheet" href="./displays.css">
+    <link rel="stylesheet" href="./colors.css">
+    <link rel="stylesheet" href="./typography.css">
+
+    <!-- selecting a google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Front-End Web Development</title>
+</head>
+
+    <body>
+
+        <header>
+        
+            <h1 id="header-main-heading">
+                Front-End Web Development
+            </h1>
+
+            <nav>
+                <!-- multiple class selector on 1 element to add multiple styles. -->
+                <ul class="ulist navlist">
+                    <li>
+                        <a class='ulist-li' href='#'>
+                            Html5
+                        </a>
+                    </li>
+                    <li><a class='ulist-li' href='#'>
+                            Css
+                        </a>
+                    </li>
+                    <li>
+                        <a class='ulist-li' href='#'>
+                            JavaScript
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        
+        </header>
+
+
+        <section>
+
+            <article>
+                <!-- inline css styling; <h2 style="color:red; font-size:60px;"> -->
+
+                <p class="p-data">
+                    Projects
+                </p>
+
+
+                <h2 class="article-title">
+                    <a href="">
+                        App 1
+                    </a>
+                </h2>
+
+
+                <h2 class="article-title">
+                    <a href="">
+                        App 2
+                    </a>
+                </h2>
+                
+                
+
+                
+        
+
+                <p id="front-end-paragraph">
+                    Front-End Developers are web developers who focus their efforts on the outward-facing parts of a product. 
+                    The parts of a website that users interact with directly, including menus, articles, photo galleries, widgets, and games, constitute the “front end.” 
+                    Front-End Developers don’t necessarily worry about factors such as data storage, website framework, server connections, or any of 
+                    the other back-end aspects of web development. 
+                    Instead, these tech gurus focus on making the product aesthetically pleasing and ensuring it functions well for its users. 
+                    Their work might involve creating interactive tools or other widgets that make the website or application more user-friendly or enjoyable to use.
+                </p>
+            
+            </article>
+        </section>
+
+        <!-- id attributes/selectors can only be used once. -->
+        <footer id="footer-section">
+            <!-- <h5 id="footer-title">
+                <a id='footer-a' href='#'>Footer Section</a>
+            </h5> -->
+
+            <!-- descedant combinator styling applied here -->
+            <ul class="contact-data">
+                <!-- <li style="border: solid red 2.5px; color:green;">contact me</li>
+                <li style="border: solid red 2.5px; color:green;">2022</li> -->
+                <li style="border: none; "><a href="">contact me</a></li>
+                <li style="border: none; "><a href="">2024</a></li>
+            </ul>
+        </footer>
+
+        <!-- <div id="extra-box" style="border:1px solid black; height:200px; width:300px; padding:10px">
+            <h1>Hello World!</h1>
+        </div> -->
+    </body>
+</html>

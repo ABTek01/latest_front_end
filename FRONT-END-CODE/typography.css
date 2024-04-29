@@ -1,0 +1,68 @@
+/* typography */
+/* font-face; allows us to import custom fonts
+allows for diffrent fonts to be downloaded to 
+the laptop and website.
+
+*/
+
+@font-face{
+    font-family: 'GlegooBanner';
+    src: url('../fonts/Glegoo-Regular.woff2') format('woff2'),
+         url('../fonts/Glegoo-Regular.woff') format('woff'),
+         url('../fonts/Glegoo-Regular.ttf') format('truetype');
+}
+
+/* 
+url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap');
+*/
+
+header h1{
+    /* font-family: Garamond, 'Times New Roman', serif; */
+    font-family: 'GlegooBanner', monospace;
+    font-size: 45px;
+    font-weight: 400;
+
+    /* setting  font-style to italic*/
+    /* font-style: italic; */
+
+    /* The word-spacing property also takes length values in units, such as **3px or **0.2em. */
+    /* For word spacing, using em values are recommended because the spacing can be set based on the size of the font. */
+    /* word-spacing: ; */
+
+    /* We can use the line-height property to set how tall we want each line containing our text to be.*/
+    /* Line height values can be a unitless number, such as 1.2, or a length value, such as 12px, 5% or 2em.*/
+    /* line-height: ; */
+}
+
+.article-title, .p-data, .add-p-data{
+    font-family: 'Space Mono', monospace;
+
+}
+
+.article-title{
+    text-align: center;
+    
+}
+.article-title a{
+    text-decoration: none;
+}
+
+
+
+
+#front-end-paragraph{
+    /*  */
+    /* The letter-spacing property takes length values in units e.g.; **1px */
+    /* letter-spacing: 0.5px; */
+    padding: 10px 10px 5px 5px;
+    text-align: center;
+    word-spacing: 0.25em;
+    font-weight: 700;
+    /* color */
+}
+
+
+
+
+
+

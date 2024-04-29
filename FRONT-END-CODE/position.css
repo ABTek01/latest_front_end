@@ -1,0 +1,90 @@
+
+header{
+    position: fixed;
+    width:97.5%;
+    margin-right: auto;
+}
+/* header{
+    position: absolute;
+} */
+
+nav{
+    /* static; is the default value (it does not need to be specified) */
+    position: static;
+
+}
+
+/* selecting unrelated selectors and applying same style. position; relative. */
+#main-heading, 
+    .article-title{
+    /* background-color: gold; */
+    position: relative;
+    right: 5px;
+    border: solid 5px;
+    /* padding-left: 20px auto; */
+}
+
+section{
+    /* allows  */
+    position: relative;
+    top: 150px;
+    
+
+}
+
+article .p-data{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    padding: 15px;
+}
+
+.article-title{
+    margin-left: 20px;
+}
+
+#footer-section{
+    position:relative;
+    top:300px;
+}
+
+
+/* 
+position; absolute;
+
+    all other elements will ignore
+    targeted elements.
+
+    removes element from
+    normal flow of the page.
+
+    element will scroll with
+    the rest of the document.
+
+    can specify top, right, 
+    bottom, left margins.
+*/
+
+
+/* 
+position; fixed;
+
+    value that keeps an 
+    element in the document flow as the user scrolls, 
+    but sticks to a specified position as the page is scrolled further. 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

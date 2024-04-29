@@ -1,0 +1,163 @@
+/* box model */
+/* borders, border-radius */
+
+/* 
+height & width 
+
+minimum height;
+
+minimum height; 
+
+
+maximum width;
+
+set the max width of an element 
+for different screen sizes.
+
+minimum width;
+
+sets the min width of a box element
+for different screen sizes.
+
+*/
+
+/* 
+padding;
+spacing in between the border and the content within
+an element.
+
+even padding values;
+padding: 0 auto;
+
+*/
+
+/* 
+margin 
+
+margin collapse; horizontal margins can add up.
+vertical margins are dependant on the element with 
+larger amount of margin assigned.
+
+even margin values;
+margin: 0 auto;
+
+
+*/
+
+/*
+overflow;
+
+The overflow property can be set to display, hide, or scroll,
+and dictate how HTML will render content that overflows its parent’s content area.
+
+The visibility property can hide or show elements.
+*/
+
+/*
+changing the box model;
+
+why change the box model;
+box dimensions are affected by 
+border thickness and padding.
+
+box-sizing:
+content-box;
+sets the default
+box display to content box 
+and if allowed to change.
+
+box-sizing:
+border-box;
+set the box display to border box
+and sets the box element's
+box-styling to remain fixed.
+
+The value border-box is recommended when it is necessary 
+to resize the padding and border but not just the content
+*/
+
+/*
+
+The new box model;
+*{
+    box-sizing: border-box
+}
+
+targets all elements 
+on the web page and sets
+their box model styling
+to be border-box model 
+and fixed.
+
+CSS 'auto' keyword
+The value 'auto' can be used with the property 
+margin to horizontally center an element within 
+its container.
+element{
+    margin: auto;
+}
+
+
+CSS visibility property
+
+
+*/
+
+header{
+    padding: 10px;
+    
+}
+
+
+/* selecting multipled unrelated id selectors */
+#header-main-heading, .artilce-title, #footer-title{
+    /* padding: 20px; */
+    padding-left: 20px;
+}
+
+#header-main-heading{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+#man-coding-div{
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+
+
+.article-title{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 20vh; /* Set the height of the container */
+    margin: 10px;
+
+    
+}
+
+
+.navlist{
+    margin: 20px;
+    width: 75%;
+}
+
+.navlist li{
+    list-style: square;
+    border:none;
+}
+
+.ulist-li{
+    padding: 1.5px;
+}
+
+
+
+#footer-section{
+    border: solid 5px;
+    margin-top: -40px;
+}
+
