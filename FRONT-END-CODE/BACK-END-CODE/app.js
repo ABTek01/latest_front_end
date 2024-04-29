@@ -1,4 +1,5 @@
 
+//building a media device library utilizing js classes & oop.
 class Media{
   constructor(title){
     this._title = title
@@ -18,6 +19,7 @@ class Media{
   get ratings(){
     return this._ratings
   }
+
 //sestter
   set isCheckedOut(status){
     return this._isCheckedOut
