@@ -31,8 +31,20 @@ class Media{
   }
 
   //method that return the average value of the ratings array.
-  getAverageRating(){
+  getAverageRating(ratingsArraySum){
         //utilize reduce method.
+        const initVal = 0
+        ratingsArraySum = this._ratings.reduce((acc, currentVal) => {
+            
+            return acc + currentVal
+        }, initVal)
+        console.log(ratingsArraySum)
+        
+
+
+
+
+
   }
 
   
