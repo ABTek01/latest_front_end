@@ -18,7 +18,7 @@ class Media{
   get ratings(){
     return this._ratings
   }
-
+//sestter
   set isCheckedOut(status){
     return this._isCheckedOut
   }
@@ -33,6 +33,7 @@ class Media{
         //utilize reduce method.
   }
 
+  
 
 
 }
