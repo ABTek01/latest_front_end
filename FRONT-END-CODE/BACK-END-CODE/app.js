@@ -38,14 +38,14 @@ class Media{
             
             return acc + currentVal
         }, initVal)
-        console.log(ratingsArraySum)
-        
+        console.log(ratingsArraySum / this._ratings.length)
+    }
+
+    
 
 
 
 
-
-  }
 
   
 

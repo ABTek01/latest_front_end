@@ -85,6 +85,20 @@ console.log(typeof myNewVar)
 //conditional statements; if, else if, else.
 console.log('test')
 
+let intArr = [0, 1, 2, 3, 4, 5]
+let intArrSum = intArr.reduce((acc, currentVal) =>{
+    return acc + currentVal
+}, intArr[0])
+console.log()
+console.log(intArrSum)
+console.log(intArrSum / intArr.length)
+ 
+//verify average calculation.
+console.log(15 / 6)
+
+
+
+
 
 
 
