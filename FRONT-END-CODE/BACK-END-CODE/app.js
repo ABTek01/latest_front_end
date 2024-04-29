@@ -41,7 +41,16 @@ class Media{
         console.log(ratingsArraySum / this._ratings.length)
     }
 
+    //method that appends an element to the end of an array.
+    addRating(rating){
+        this._ratings.push(rating)
+    }
+
     
+
+
+
+
 
 
 
